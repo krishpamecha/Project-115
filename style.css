@@ -1,0 +1,28 @@
+h3
+{
+  font-size: 25px !important;
+}
+
+.btn-success:hover
+{
+   background-color: darkorange;
+}
+
+canvas
+{
+    animation-name: changer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changer
+{
+    from
+    {
+         box-shadow:1px 8px 100px rgb(255, 0, 0)
+    }
+    to
+    {
+         box-shadow:1px 8px 100px rgb(0, 255, 42)
+    }
+}
